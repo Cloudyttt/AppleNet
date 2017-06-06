@@ -18,6 +18,7 @@ A copy of "www.apple.com".
 ![](http://upload-images.jianshu.io/upload_images/3260714-691d87ec46183337.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ##功能模块：
+
 |成员 | 吴佳思 | 余宁宁 | 俞浩天 | 王琛琪 | 余煜淇|
 |---|---|---|---|---|---|
 | 静态页面 | Mac | iPad | iPhone | Watch | Music | 
