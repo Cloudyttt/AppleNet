@@ -1,35 +1,35 @@
 $(function(){
-     var wifi_height = $(".macbookair-wifi").offset().top;
-	$(window).scroll(function(){
+     var wifi_height = $(".data-rings").offset().top;
+    $(window).scroll(function(){
         var top=$(".header").offset().top+$(".header").height()-$(window).scrollTop();
         //var Width=$(".header-bottom").width();
-		// console.log(top);
+        // console.log(top);
         var this_scrollTop = $(this).scrollTop();
-		if(top<=0){
-		    $(".header-bottom-content").css({
-		    	"border-bottom": "0"
-		    });
+        if(top<=0){
+            $(".header-bottom-content").css({
+                "border-bottom": "0"
+            });
             $(".header-bottom").css({
                 "position": "fixed",
-				"top": "0",
+                "top": "0",
                 "width": "100%",
-				"border-bottom": "1px solid #d6d6d6",
-				"z-index": "10",
-				"background-color": "rgba(255,255,255,0.9)"
-		    });
-	    }
+                "border-bottom": "1px solid #d6d6d6",
+                "z-index": "10",
+                "background-color": "rgba(255,255,255,0.9)"
+            });
+        }
         else{
-	    	$(".header-bottom").css({
+            $(".header-bottom").css({
                 "position": "relative",
-				// "top":"0",
-				"width": "100%",
-				"border-bottom": "0",
-				"background-color": "#ffffff"
-		    });
-		    $(".header-bottom-content").css({
-		    	"border-bottom": "1px solid #d6d6d6"
-		    });
-	    }
+                // "top":"0",
+                "width": "100%",
+                "border-bottom": "0",
+                "background-color": "#ffffff"
+            });
+            $(".header-bottom-content").css({
+                "border-bottom": "1px solid #d6d6d6"
+            });
+        }
         if((this_scrollTop>(wifi_height-400))&&(this_scrollTop<(wifi_height+1000))){
         //$(".macbookair-wifi").animate({
             $(".outer-mid").css({

@@ -56,7 +56,6 @@ body {
     background: #000;
     display: flex;
     justify-content: center;
-    position: absolute;
     z-index: 1;
     opacity: 0.8;
 }
