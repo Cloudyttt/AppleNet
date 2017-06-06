@@ -4,8 +4,8 @@
 }
 .header{
 	height: 84px;
-	width: 120%;
-	background-color: #333;
+	width: 100%;
+	background-color: #444;
 }
 .header-ad{
 	display: flex;
@@ -25,7 +25,7 @@
 	height: 44px;
 }*/
 #hd-down{
-	width: 120%;
+	width: 100%;
 	height: 44px;
 	background: #000;
 	display: flex;
@@ -52,7 +52,10 @@
 .hd-item a:hover{
 	color: #B5B5B5;
 }
-
+.ord0{
+	font-weight: 600;
+	color:black;
+}
 .hd-item .fa-apple{
 	color: #fff;
 	font-size: 20px;
@@ -151,7 +154,7 @@
 
 .head{
 	height: 765px;
-	width: 1230px;
+	width: 100%;
 	background-size: 1107px 688px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -281,17 +284,19 @@
 	background-color: #FAFAFA;
 }
 .background{
-	width: 1350px;
+	width: 100%;
 	margin-bottom: 20px;
 }
 .background1{
-	width: 1315px;
+	width: 96%;
+	background-color: #FAFAFA;
+
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
 }
 .two-left{
-	width: 650px;
+	width: 49%;
 	height: 300px;
 	background-color: #FAFAFA;
 	display: flex;
@@ -301,7 +306,7 @@
 	align-items: center;
 }
 .two-right{
-	width: 650px;
+	width: 45%;
 	height: 300px;
 	background-color:#FAFAFA;
 	display: flex;
@@ -388,7 +393,7 @@
 }
 
 .func-top-picbox{
-	width: 1350px;
+	width: 100%;
 	height: 1060px;
 	background-color: #FAFAFA;
 	display: flex;
@@ -401,7 +406,7 @@
 	margin-bottom: 20px;
     background-image: url("https://images.apple.com/v/ipad-9.7/c/images/overview/performance_large.png");
 	height: 1060px;
-	width: 1350px;
+	/*width: 1350px;*/
 	background-size: 1120px 1060px;
 	background-repeat: no-repeat;
 	background-position: 250px 0px;
@@ -449,7 +454,7 @@
 	margin-bottom: 20px;
     background-image: url("https://images.apple.com/cn/ipad-9.7/home/images/ios_large.jpg");
 	height: 765px;
-	width: 1350px;
+	width: 100%;
 	background-size: 341px 1041px;
 	background-repeat: no-repeat;
 	background-position: center 0px;
@@ -507,8 +512,9 @@
 	margin-left: 18%;
 }
 .touch-top-picbox{
-	width: 1350px;
+	width: 100%;
 	display: flex;
+	margin: auto;
 	justify-content: center;
 	align-content: center;
 	align-items: flex-end;
@@ -520,7 +526,7 @@
     background-image: url("https://images.apple.com/cn/ipad-9.7/home/images/touchid_large.jpg");
 	background-size: 1356px 1078px;
 	background-repeat: no-repeat;
-	background-position:230px center;
+	background-position:320px center;
 }
 .touch-word{
 	width: 860px;
@@ -636,7 +642,7 @@
     transition: opacity 1000ms cubic-bezier(0.25, 0.1, 0.25, 1),transform 1000ms cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .design-top-picbox{
-	width: 1350px;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-content: center;
@@ -663,7 +669,7 @@
 	margin-bottom: 20px;
     background-image:url("https://images.apple.com/cn/ipad-9.7/home/images/wireless_large.jpg");
 	height: 965px;
-	width: 1350px;
+	width: 100%;
 	background-size: 919px 878px;
 	background-repeat: no-repeat;
 	background-position: center 0px;
@@ -682,7 +688,7 @@
 	display: flex;
 	background-color: #FAFAFA;
     background-image:url("https://images.apple.com/v/ipad-9.7/c/images/overview/accessories_large.jpg");
-	width: 1350px;
+	width: 100%;
 	height: 564px;
 	background-size: 1764px 564px;
 	background-repeat: no-repeat;
