@@ -15,7 +15,7 @@ A copy of "www.apple.com".
 
 ##界面设计
 
-![](http://upload-images.jianshu.io/upload_images/3260714-691d87ec46183337.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/3260714-a9925bc7a9c46d86.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ##功能模块：
 
