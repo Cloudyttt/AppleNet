@@ -1,0 +1,1855 @@
+body 
+{
+    border-top: 1px solid transparent;
+    margin-top: -1px;
+    position: relative;
+    min-width: 320px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.4446;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+body, input, textarea, select, button 
+{
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: 'liga', 'kern';
+    direction: ltr;
+    text-align: left;
+}
+article, aside, footer, header, nav, main, section, summary, details, hgroup, figure, figcaption 
+{
+    display: block;
+}
+ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figure, form, fieldset, input, legend, pre, abbr, button 
+{
+    margin: 0;
+    padding: 0;
+}
+figure {
+    margin: 0;
+}
+.row {
+    position: relative;
+    z-index: 1;
+}
+.column {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    float: left;
+    min-height: 2px;
+}
+.adv-wrapper 
+{
+    z-index: 9999;
+    background: #444;
+    top: -40px;
+    width: 100%;
+    right: 0;
+    height: 40px;
+    z-index: 9999;
+}
+.adv-wrapper .adv-wrapper-text 
+{
+    color: #a8a8aa;
+    display: block;
+    line-height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-align: right;
+    max-width: 976px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ac-globalnav
+{
+    top: 40px;
+    right: 0px;
+    left: 0px;
+    z-index: 9999;
+    display: block;
+    width: 100%;
+    height: 44px;
+    font-size: 17px;
+    margin: 0px;
+    background: rgba(51,51,51,1);
+    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ac-gn-content
+{
+    height: 48px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.ac-gn-content-item
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 44px;
+    
+}
+.ac-gn-content-item span
+{
+    color: #fff;
+    font-size: 14px;
+    white-space: nowrap;
+    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+.ac-gn-content-item span:hover
+{
+    color: #ccc;
+    cursor:pointer
+}
+.ac-gn-content-item img:hover
+{
+    cursor:pointer;
+    opacity:.5;
+}
+.fixedpart{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 52px;
+    background: rgb(246,246,246);
+}
+.fixedpart-cnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    border-bottom: 1px solid #ccc;
+}
+.fixedpart-cnt-title{
+    margin: 0;
+}
+.fixedpart-cnt-title a{
+    font-size: 28px;
+    color: #333;
+    font-weight: 300;
+}
+.fixedpart-cnt-title a:hover{
+    font-size: 28px;
+    color: #333;
+    font-weight: 300;
+    text-decoration: none;
+}
+.fixedpart-cnt-menu ul{
+    display: flex;
+    padding-top: 8px;
+    margin: 0;
+    font-size: 12px;
+    list-style-type: none;
+}
+.fixedpart-cnt-menu li{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+.fixedpart-cnt-menu a{
+    color: #ADADAD;
+}
+.fixedpart-cnt-menu a:hover{
+    color: #61A6DE;
+    text-decoration: none;
+}
+#cnt-menu-buyit{
+    height: 22px;
+    width: 42px;
+    background-color: #2189db;
+    border: 1px solid #07c;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+}
+#cnt-menu-buyit:hover{
+    height: 22px;
+    width: 42px;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border: 1px solid #07c;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+}
+/*#ac-localnav 
+{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 52px;
+    min-width: 1024px;
+    z-index: 9997;
+    direction: ltr;
+    text-align: left;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+}
+#ac-localnav .ac-ln-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: 1;
+}
+#ac-localnav *, #ac-localnav *:before, #ac-localnav *:after {
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+#ac-localnav .ac-ln-content {
+    height: 52px;
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+    border-bottom: 1px solid #ccc;
+}
+#ac-localnav .ac-ln-title, #ac-localnav .ac-ln-title a {
+    color: #333;
+    -webkit-transition: color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+    transition: color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+}
+#ac-localnav .ac-ln-title {
+    font-size: 28px;
+    line-height: 1.85714;
+    font-weight: 300;
+    letter-spacing: normal;
+    cursor: default;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 52px;
+    white-space: nowrap;
+}
+#ac-localnav .ac-ln-menu {
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: normal;
+    float: right;
+    line-height: 44px;
+    padding-top: 8px;
+}
+#ac-localnav .ac-ln-menucta-anchor {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    z-index: 10;
+}
+#ac-localnav .ac-ln-menucta-anchor-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+#ac-localnav .ac-ln-menucta-anchor-close {
+    display: none;
+}
+#ac-localnav .ac-ln-menu-tray {
+    float: left;
+}
+#ac-localnav .ac-ln-menu-item {
+    margin-left: 24px;
+    float: left;
+    list-style: none;
+}
+#ac-localnav .ac-ln-menu-link.current {
+    color: rgba(51,51,51,0.6);
+    cursor: default;
+}
+#ac-localnav .ac-ln-menu-link {
+    color: #333;
+    display: inline-block;
+    line-height: 22px;
+    white-space: nowrap;
+}
+#ac-localnav .ac-ln-actions {
+    float: left;
+}
+#ac-localnav .ac-ln-action-menucta {
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+#ac-localnav .ac-ln-action {
+    margin-left: 24px;
+    float: left;
+}
+#ac-localnav .ac-ln-menucta {
+    margin-right: -11px;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    width: 40px;
+    height: 48px;
+    -webkit-tap-highlight-color: transparent;
+}
+#ac-localnav .ac-ln-menucta-chevron {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    -webkit-transition: -webkit-transform 1s cubic-bezier(0.86, 0, 0.07, 1),-webkit-transform-origin 1s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: -webkit-transform 1s cubic-bezier(0.86, 0, 0.07, 1),-webkit-transform-origin 1s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: transform 1s cubic-bezier(0.86, 0, 0.07, 1),transform-origin 1s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: transform 1s cubic-bezier(0.86, 0, 0.07, 1),transform-origin 1s cubic-bezier(0.86, 0, 0.07, 1),-webkit-transform 1s cubic-bezier(0.86, 0, 0.07, 1),-webkit-transform-origin 1s cubic-bezier(0.86, 0, 0.07, 1),-ms-transform-origin 1s cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-transform: translateY(10%);
+    -ms-transform: translateY(10%);
+    transform: translateY(10%);
+}
+#ac-localnav .ac-ln-action-product {
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+    top: auto;
+    left: auto;
+}
+#ac-localnav .ac-ln-background {
+    background: rgb(246,246,246);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    -webkit-transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+    transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+}
+#ac-localnav .ac-ln-button-buynow, #ac-localnav .ac-ln-button-compact, #ac-localnav .ac-ln-button {
+    background-color: #2189db;
+    background: -webkit-linear-gradient(#42a1ec, #0070c9);
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.54615;
+    font-weight: 500;
+    letter-spacing: normal;
+    padding: 0 10px;
+}
+#ac-localnav .ac-ln-button
+{
+    border-radius: 5px 5px 5px 5px;
+    height: 22px;
+    height: 46px;
+}*/
+div
+{
+    display: block;
+}
+.text-center 
+{
+    text-align: center;
+}
+.column 
+{
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    float: left;
+    min-height: 2px;
+}
+.main
+{
+    background: rgb(246,246,246);
+    display: block;
+}
+.section-hero 
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+@media only screen and (min-width: 1442px)
+{
+    .section-content 
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 980px;
+    }    
+}
+.section-content 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+.large-centered 
+{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.hero-headline-block
+{
+    height: 193px;
+}
+.section-hero .image-hero-logo {
+    display: none;
+    position: relative;
+    width: 158px;
+    height: 21px;
+    background-size: 158px 21px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/intro_title_large.png);
+    margin: 0 auto 20px;
+}
+.visuallyhidden {
+    display: none;
+    position: fixed;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+.typography-elevated-headline
+{
+    display: none;
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: 0em;
+}
+br.show-only-for-small 
+{
+    display: none;
+}
+.section-feature-film 
+{
+    width: 100%;
+}
+@media (min-width: 1536px)
+{
+    .section-feature-film .player-container 
+    {
+        position: relative;
+        height: 100%;
+    }
+}
+.section-feature-film .player-container 
+{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.typography-intro-text:
+{
+    font-size: 20px;
+    line-height: 2em;
+}
+.section-hero .typography-intro-text 
+{
+    margin-bottom: 1.8em;
+}
+
+.section-hero .hero-intro-cta 
+{
+    font-size: 26px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    display: none;
+}
+.typography-intro-text 
+{
+    font-size: 18px;
+    line-height: 1.33349;
+    font-weight: 300;
+    letter-spacing: 0em;
+}
+
+
+
+html.hero-animated .section-hero .hero-hardware {
+    opacity: 0.001;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.hero-sequence-element {
+    display: block;
+    width: 980px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 58px;
+    text-align: center;
+    -webkit-transition: 750ms opacity cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: 750ms opacity cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.section-hero .image-hero {
+    opacity: 0.01;
+    width: 1475px;
+    height:1100px;
+    background-size: 1475px 1428px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/intro_large.jpg);
+}
+.image-hero-background
+{
+    
+}
+.section-hero .hero-intro-block {
+    opacity: 0.1;
+    margin-bottom: 10px;
+    position: relative;
+}
+.hero-intro-block .typography-intro-text-small{
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0em;
+}
+
+
+.badgeblock 
+{
+    text-align: center;
+}
+.badges
+{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    width: 6em;
+    height: 8em;
+    color: #333;
+    vertical-align: middle;
+}
+#badgeblock-top
+{
+    position: relative;
+    opacity: 0.1;
+}
+.badgeblock .badges
+{
+    height: 9em;
+    margin: 0 2em 0.1em;
+}
+.badge-center 
+{
+    text-align: center;
+}
+.badge-content 
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 2.75em;
+}
+.badge-large:first-child {
+    margin-top: .3125em;
+}
+.badge-large {
+    font-size: 47px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: -.001em;
+}
+.badge-percent {
+    margin-left: 0.3em;
+    font-size: 20px;
+}
+.badge-large {
+    display: block;
+    position: relative;
+    left: -2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80px;
+    line-height: .9;
+    font-weight: 100;
+    letter-spacing: -.025em;
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 100;
+    white-space: nowrap;
+}
+span.badge-half.myriad {
+    font-size: 0.5em;
+}
+.badge-half {
+    font-size: 22px;
+    line-height: .77273;
+    font-weight: 500;
+    letter-spacing: -.001em;
+}
+.badge-half-top {
+    position: relative;
+    top: 0em;
+}
+
+span.badge-small {
+    font-family: 'HanHei SC', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+.badge-large+.badge-small {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+}
+.badge-small {
+    display: block;
+    font-size: 15px;
+    line-height: 1.33343;
+    font-weight: 400;
+    letter-spacing: 0em;
+    margin-top: 0.2em;
+    margin-bottom: .375em;
+    color: #666;
+}
+.badge-icon {
+    line-height: 0.24;
+    margin-bottom: 0.17em;
+}
+.image-hero-badge-display {
+    width: 56px;
+    height: 56px;
+    background-size: 56px 56px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/macbook-pro/l/images/overview/intro_display_icon_large.svg);
+}
+
+
+
+.section-hero .image-hero-sidebyside{
+    width: 1408px;
+    height: 736px;
+    background-size: 1408px 736px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/endframe_intro_models_large.jpg);
+    left: 50%;
+    margin-left: -704px;
+    position: relative;
+    margin-bottom: 40px;
+    opacity: 0.1;
+}
+
+
+
+.badgeblock {
+    text-align: center;
+}
+.badgeblock-bottom
+{
+    top: 50px;
+    opacity: 0.1;
+    position: relative;
+}
+.section-hero .badgeblock-bottom .badges {
+    margin: 0;
+}
+.section-hero .badge-model {
+    width: 100%;
+}
+.badgeblock .badges {
+    height: 9em;
+    margin: 0 2em 0.1em;
+}
+.badge-large-alt {
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 200;
+    letter-spacing: -.001em;
+    color: #666;
+}
+span.badge-half-alt.seven {
+    margin-left: -0.1em;
+}
+.badge-content2
+{
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 2.75em;
+}
+
+
+
+
+
+.section-feature-film-split {
+    padding: 0;
+    width: 100%;
+    height: 400px;
+}
+.section-feature-film-split .player-container 
+{
+    overflow: hidden;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+@media (min-width: 1536px)
+{
+    .section-feature-film-split .player-container 
+    {
+        position: relative;
+        height: 100%;
+    }   
+}
+.section-feature-film-split .half {
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.section-feature-film-split .half {
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.section-feature-film-split .block {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.section-feature-film-split .moreblock {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.typography-elevated-intro {
+    margin: 0 0 .5em;
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 300;
+    letter-spacing: 0em;
+}
+.section-feature-film-split .moreblock .subsection-headline {
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: -0.008em;
+    color: #fff;
+    font-size: 52px;
+}
+.section-feature-film-split .moreblock .icon {
+    color: #fff;
+    text-shadow: 0 0 0 rgba(255,255,255,0);
+    -webkit-transition: text-shadow 0.9s ease-in, 0.8 opacity 0.4s ease-in, color 0.9s ease-in;
+    transition: text-shadow 0.9s ease-in, 0.8 opacity 0.4s ease-in, color 0.9s ease-in;
+}
+.section-feature-film-split .player-cover {
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+.section-feature-film-split .half.left .player-cover {
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/generations_large.jpg);
+    position: relative;
+}
+.section-feature-film-split .half.right .player-cover {
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/qwerty_large.jpg);
+    position: relative;
+}
+
+
+
+
+
+.section-touchbar-touchid {
+    padding: 0;
+    background: none;
+}
+.section-touchbar-touchid .card-hero {
+    padding-top: 100px;
+    background: linear-gradient(to bottom, #fff 0, #f6f6f6 150px);
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    will-change: transform;
+    overflow: hidden;
+}
+.column-intro {
+    text-align: center;
+}
+.typography-hero-headline:{
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    font-weight: 200;
+}
+.card-hero-text
+{
+    line-height: 35px;
+}
+.eyebrow {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 300;
+    letter-spacing: 0em;
+    display: block;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+.eyebrow-hero {
+    line-height: 1.14286;
+    font-weight: 300;
+    letter-spacing: 0em;
+    margin-bottom: 21px;
+    font-size: 26px;
+}
+.centeralign {
+    padding-left: 0.4em;
+    font-size: 50px;
+    line-height: 70px;
+}
+.section-touchbar-touchid .touchbar-gallery-section {
+    height: 1124px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 4.3em;
+    opacity: 0;
+    will-change: opacity;
+    opacity: 1;
+}
+.section-touchbar-touchid .touchbar-gallery-section .background-container {
+    width: 100%;
+    will-change: transform;
+    -webkit-transform: scale(0.7426) translateY(0);
+    transform: scale(0.7426) translateY(0);
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+}
+.section-touchbar-touchid .gallery-items {
+    position: relative;
+    margin: 0 auto;
+    left: 1px;
+    /*background: #000;*/
+    width: 842px;
+    height: 323px;
+    z-index: 220
+}
+.section-touchbar-touchid .image-touchbar-hardware-background {
+    
+    width: 1792px;
+    height: 1561px;
+    background-size: 1792px 1561px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/touchbar_gallery_hardware_large.jpg);
+    left: 50%;
+    background-position: center center;
+    top: 0;
+    z-index: 222;
+    margin-left: -446px;
+    position: absolute;
+}
+.section-touchbar-touchid .image-touchbar-hands-background {
+    width: 909px;
+    height: 849px;
+    background-size: 909px 849px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_gallery_hands_large.png);
+    background-position: center center;
+    z-index: 222;
+    position: absolute;
+    will-change: transform;
+    width: 100%;
+    top: 148px;
+    left: -88px;
+    -webkit-transform: scale(1.3464);
+    transform: scale(1.3464);
+    margin-left: 0;
+}
+.section-touchbar-touchid .gallery-overlap 
+{
+    position: absolute;
+    z-index: 1;
+    background-color: #f6f6f6;
+    height: 559px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    will-change: transform;
+}
+.section-touchbar-touchid .gallery-overlap .shadow {
+    content: "";
+    display: block;
+    width: 1722px;
+    height: 83px;
+    background-size: 1722px 83px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_gallery_shadow_large.png);
+    position: absolute;
+    background-position: center center;
+    width: 100%;
+    top: -83px;
+}
+.section-content {
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+.paddlenav {
+    list-style: none;
+}
+.section-touchbar-touchid .gallery-overlap .show-only-small {
+    display: none;
+}
+.paddlenav-short .paddlenav-arrow-next, .paddlenav-short .paddlenav-arrow-previous {
+    line-height: 64px;
+    margin-top: -32px;
+    width: 64px;
+    height: 64px;
+}
+.paddlenav-short .paddlenav-arrow {
+    font-size: 24px;
+    font-weight: normal;
+}
+.paddlenav-arrow-next, .paddlenav-arrow-previous {
+    line-height: 128px;
+    margin-top: -64px;
+    top: 50%;
+    width: 67px;
+    height: 128px;
+    left: 0;
+}
+.paddlenav-arrow {
+    background-color: transparent;
+    border-radius: 4px;
+    color: #666;
+    display: block;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 200;
+    opacity: .6;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    -webkit-transition: 250ms opacity linear;
+    transition: 250ms opacity linear;
+}
+
+
+.section-touchbar-touchid .nav-container {
+    margin-top: 38px;
+}
+.ac-tabnav.ac-tabnav-dashy {
+    position: relative;
+    overflow-x: hidden;
+}
+.ac-tabnav {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+}
+
+.ac-tabnav.ac-tabnav-dashy .ac-tabnav-items {
+    padding-bottom: 1px;
+}
+.ac-tabnav .ac-tabnav-items {
+    display: inline-block;
+    margin: 0;
+}
+.ac-tabnav .ac-tabnav-item:first-child {
+    padding-left: 0;
+}
+.ac-tabnav .ac-tabnav-item {
+    padding-left: 60px;
+    border-bottom: 1px solid #d6d6d6;
+    display: inline-block;
+    list-style: none;
+    outline: none;
+}
+.section-touchbar-touchid .nav-container .ac-tabnav-link {
+    text-align: center;
+}
+.ac-tabnav-link:{
+    font-size: 17px;
+    line-height: 1.82353;
+}
+.section-touchbar-touchid .nav-container figure {
+    margin: 0 auto 15px;
+}
+.section-touchbar-touchid .image-icon-photos {
+    width: 39px;
+    height: 44px;
+    background-size: 39px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_gallery_photos_icon_large.jpg);
+}
+.section-touchbar-touchid .image-icon-final-cut-pro {
+    width: 40px;
+    height: 44px;
+    background-size: 40px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_gallery_finalcut_icon_large.jpg);
+}
+.section-touchbar-touchid .image-icon-mail {
+    width: 42px;
+    height: 44px;
+    background-size: 42px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_gallery_mail_icon_large.jpg);
+}
+.section-touchbar-touchid .image-icon-safari {
+    width: 38px;
+    height: 44px;
+    background-size: 38px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_gallery_safari_icon_large.jpg);
+}
+.section-touchbar-touchid .image-icon-keynote {
+    width: 32px;
+    height: 44px;
+    background-size: 32px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_gallery_keynote_icon_large.jpg);
+}
+.section-touchbar-touchid .image-icon-customization {
+    width: 40px;
+    height: 44px;
+    background-size: 40px 44px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_gallery_custom_icon_large.jpg);
+}
+
+
+
+/*******************************滑动动态***************************************/
+/*.section-touchbar-touchid .gallery-overlap .show-only-small {
+    display: none;
+}
+.paddlenav-short .paddlenav-arrow-next, .paddlenav-short .paddlenav-arrow-previous {
+    line-height: 64px;
+    margin-top: -32px;
+    width: 64px;
+    height: 64px;
+}
+.paddlenav-short .paddlenav-arrow {
+    font-size: 24px;
+    font-weight: normal;
+}
+.paddlenav-arrow:disabled, .paddlenav-arrow.disabled {
+    cursor: default;
+    opacity: 0;
+}
+.paddlenav-arrow-next {
+    right: 0;
+}
+
+overview.built.css:1
+.paddlenav-arrow {
+    background-color: transparent;
+    border-radius: 4px;
+    color: #666;
+    display: block;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 200;
+    opacity: .6;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    -webkit-transition: 250ms opacity linear;
+    transition: 250ms opacity linear;
+}*/
+
+.section>.card-content.js-hidden 
+{
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    /* top: 0; */
+}
+.section .card-content.theme-dark, .theme-dark 
+{
+    background: #161616;
+}
+
+.section>.card-content 
+{
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 0;
+    position: relative; 
+    visibility: inherit; 
+    display: none; 
+    margin-top: -100px; 
+    z-index: 1; 
+    opacity: 1;
+}
+
+.expand-touchbar {
+    position: relative;
+    z-index: 1;
+}
+
+.section-spacing {
+    padding: 70px 0;
+}
+.theme-dark {
+    background-color: #000;
+    color: #ccc;
+}
+.typography-intro: {
+    font-size: 20px;
+    line-height: 1.59091;
+}
+.expand-touchbar .typography-intro-headline {
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+.expand-touchbar .touchbar-items {
+    margin: 64px 0;
+}
+.expand-touchbar .touchbar-item-group {
+    margin-bottom: 50px;
+}
+.expand-touchbar .touchbar-item-group p {
+    margin-top: 10px;
+}
+.typography-body-copy{
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.82353;
+}
+.touchbar-captions
+{
+    margin-top: 50px;
+}
+.expand-touchbar .touchbar-customize {
+    width: 825px;
+    height: 33px;
+    background-size: 825px 33px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_access_customize_large.jpg);
+}
+
+.expand-touchbar .touchbar-facetime {
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/touchbar_access_facetime_large.jpg);
+}
+.expand-touchbar .touchbar-facetime {
+    width: 825px;
+    height: 33px;
+    background-size: 825px 33px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_access_facetime_large.jpg);
+}
+
+.expand-touchbar .touchbar-emoji {
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/touchbar_access_emoji_large.jpg);
+}
+.expand-touchbar .touchbar-emoji {
+    width: 825px;
+    height: 33px;
+    background-size: 825px 33px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_access_emoji_large.jpg);
+}
+.expand-touchbar .touchbar-function {
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/touchbar_access_function_large.jpg);
+}
+.expand-touchbar .touchbar-function {
+    width: 825px;
+    height: 33px;
+    background-size: 825px 33px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_access_function_large.jpg);
+}
+
+
+
+
+
+.expand-touchbar .touchbar-pay {
+    width: 485px;
+    height: 485px;
+    background-size: 485px 485px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/touchbar_touchid_large.jpg);
+}
+.expand-touchbar .touchbar-pay, .expand-touchbar .touchbar-future {
+    margin-bottom: 53px;
+}
+.expand-touchbar .touchbar-pay-icon {
+    margin: 20px 0;
+    width: 51px;
+    height: 51px;
+    background-size: 51px 51px;
+    background-repeat: no-repeat;
+    background-image: url(/v/macbook-pro/l/images/overview/touchbar_touchid_icon_large.svg);
+}
+.expand-touchbar .pay-future-text {
+    padding-right: 7%;
+}
+.section-touchbar-touchid .pay-future-text {
+    padding-right: 30px;
+}
+.expand-touchbar .future-section {
+    padding-left: 0.5%;
+}
+.expand-touchbar .touchbar-future {
+    width: 485px;
+    height: 485px;
+    background-size: 485px 485px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/touchbar_apps_large.jpg);
+}
+.expand-touchbar .touchbar-future-icon {
+    margin: 20px 0;
+    width: 51px;
+    height: 51px;
+    background-size: 51px 51px;
+    background-repeat: no-repeat;
+    background-image: url(/v/macbook-pro/l/images/overview/touchbar_apps_icon_large.svg);
+}
+.expand-touchbar .pay-future-text {
+    padding-right: 7%;
+}
+.section-touchbar-touchid .pay-future-text {
+    padding-right: 30px;
+}
+.section>.card-content>.cardContent-mask {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0.01;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 2;
+    will-change: opacity;
+}
+.section-keyboard-trackpad {
+    margin-top: 120px;
+    overflow: hidden;
+}
+.section-keyboard-trackpad .section-content {
+    margin-top: 22px;
+    position: relative;
+    margin-bottom: 0;
+}
+.section-keyboard-trackpad .typography-hero-headline {
+    font-size: 60px;
+    line-height: 1.2;
+}
+.section-keyboard-trackpad .typography-intro-text{
+    font-size: 20px;
+    line-height: 1.8;
+}
+.image-keyboard-trackpad-badge-key {
+    width: 47px;
+    height: 56px;
+    background-size: 47px 56px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/macbook-pro/l/images/overview/keyboard_stability_icon_large.svg);
+}
+.image-keyboard-trackpad-badge-trackpad {
+    width: 81px;
+    height: 56px;
+    background-size: 81px 56px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/macbook-pro/l/images/overview/keyboard_trackpad_icon_large.svg);
+}
+.image-keyboard-trackpad-badge-keyboard {
+    width: 76px;
+    height: 56px;
+    background-size: 76px 56px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/cn/macbook-pro/images/overview/keyboard_icon_large.svg);
+}
+.section-keyboard-trackpad .image-keyboard-trackpad-hero-alt {
+    margin-top: 65px;
+    margin-bottom: 105px;
+    width: 1803px;
+    height: 967px;
+    background-size: 1803px 967px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/keyboard_gallery_large.png);
+    left: 50%;
+    margin-left: -504px;
+    position: relative;
+}
+.section-keyboard-trackpad .device-gallery {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.section-keyboard-trackpad .device-gallery>div {
+    height: 570px;
+}
+.paddlenav.paddlenav-short.swipe-paddlenav {
+    top: 50%;
+    position: relative;
+}
+.paddlenav.paddlenav-short.swipe-paddlenav .swipe-previous {
+    left: 72px;
+}
+.paddlenav.paddlenav-short.swipe-paddlenav .swipe-li {
+    position: absolute;
+    display: inline-block;
+    top: -round(35px);
+}
+.paddlenav.paddlenav-short.swipe-paddlenav li {
+    list-style-type: none;
+}
+.paddlenav.paddlenav-short.swipe-paddlenav .button-clip {
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    -webkit-clip-path: circle(33px at 35px 35px);
+    clip-path: circle(33px at 35px 35px);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+html.no-css-backdrop-filter .paddlenav.paddlenav-short.swipe-paddlenav .paddlenav-arrow {
+    background-color: rgba(210,210,210,0.8);
+}
+
+html.no-touch .paddlenav.paddlenav-short.swipe-paddlenav .paddlenav-arrow {
+    opacity: 0.000001;
+    -webkit-transition: 250ms opacity linear;
+    transition: 250ms opacity linear;
+}
+
+.paddlenav.paddlenav-short.swipe-paddlenav .paddlenav-arrow.disabled {
+    opacity: 0;
+    -webkit-transition: 250ms opacity linear;
+    transition: 250ms opacity linear;
+}
+
+.paddlenav.paddlenav-short.swipe-paddlenav .paddlenav-arrow {
+    color: #fff;
+    background-color: rgba(150,150,150,0.3);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    margin-top: -35px;
+}
+
+.paddlenav-short .paddlenav-arrow-next, .paddlenav-short .paddlenav-arrow-previous {
+    line-height: 64px;
+    margin-top: -32px;
+    width: 64px;
+    height: 64px;
+}
+
+.paddlenav-short .paddlenav-arrow {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.paddlenav-arrow:disabled, .paddlenav-arrow.disabled {
+    cursor: default;
+    opacity: 0;
+}
+.paddlenav.paddlenav-short.swipe-paddlenav .swipe-next {
+    right: 72px;
+}
+.current
+{
+    opacity: 1;
+}
+.ac-gallery-slidecontainer
+{
+    padding-left: 250px;
+    height: 100%;
+    width: 3000px;
+    display: flex;
+    overflow: hidden;
+}
+.section-keyboard-trackpad .gallery-item {
+    position: relative;
+    float: left;
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    opacity: 0.5;
+}
+.section-keyboard-trackpad .device-gallery h3 {
+    text-align: center;
+    margin: 0 auto 40px;
+}
+.section-keyboard-trackpad .image-device-15mbp-tb {
+    width: 782px;
+    height: 465px;
+    background-size: 782px 465px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/keyboard_gallery1_large.jpg);
+}
+.section-keyboard-trackpad .typography-intro:{
+    font-size: 20px;
+    line-height: 1.59091;
+}
+.section-keyboard-trackpad .image-device-13mbp-tb {
+    position: relative;
+    width: 682px;
+    height: 465px;
+    background-size: 682px 465px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/keyboard_gallery2_large.jpg);
+    top: -26px;
+}
+.section-keyboard-trackpad .image-device-13mbp {
+    position: relative;
+    width: 682px;
+    height: 465px;
+    background-size: 682px 465px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/keyboard_gallery3_large.jpg);
+    top: -26px;
+}
+.dashnav {
+    text-align: center;
+}
+.dashnav-item.current 
+{
+    width: 30px;
+    height: 2px;
+    opacity: .4;
+    -webkit-transition: opacity 500ms ease;
+    transition: opacity 500ms ease;
+    cursor: default;
+}
+.item
+{
+    padding-top: 20px;
+}
+.section-touchbar-touchid .image-touchbar-gallery-photos {
+    width: 842px;
+    height: 318px;
+    background-size: 842px 318px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/touchbar_gallery_photos_large.jpg);
+}
+.section-touchbar-touchid .image-touchbar-gallery-final-cut {
+    width: 842px;
+    height: 318px;
+    background-size: 842px 318px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_gallery_finalcut_large.jpg);
+}
+.section-touchbar-touchid .image-touchbar-gallery-mail {
+    width: 842px;
+    height: 318px;
+    background-size: 842px 318px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/touchbar_gallery_mail_large.jpg);
+}
+.section-touchbar-touchid .image-touchbar-gallery-safari {
+    width: 842px;
+    height: 318px;
+    background-size: 842px 318px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/v/macbook-pro/l/images/overview/touchbar_gallery_safari_large.jpg);
+}
+.section-touchbar-touchid .image-touchbar-gallery-keynote {
+    width: 842px;
+    height: 318px;
+    background-size: 842px 318px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/touchbar_gallery_keynote_large.jpg);
+}
+.section-touchbar-touchid .image-touchbar-gallery-customization {
+    width: 842px;
+    height: 318px;
+    background-size: 842px 318px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/touchbar_gallery_custom_large.jpg);
+}
+.fadeText
+{
+    font-size: 16px;
+    color: #09c;
+    text-align: center;
+}
+.hero_icon{
+    margin: 0;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+    z-index: 99px;
+}
+.icon_plus
+{
+    width: 100%;
+    height: 100%;
+    z-index: 99px;
+}
+.button-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column; 
+}
+.open_icon
+{
+    display: none;
+    top: -34px;
+    position: relative;
+    margin: 0;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+    z-index: 99px;
+}
+.paddlenav-arrow:hover
+{
+    opacity: 1;
+}
+
+
+.section-macos {
+    overflow: hidden;
+}
+.overview .typography-hero-headline span.myriad:{
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+.image-macos-badge-siri {
+    width: 47px;
+    height: 56px;
+    background-size: 47px 56px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/macbook-pro/l/images/overview/macos_siri_icon_large.svg);
+}
+.image-macos-badge-devices {
+    width: 94px;
+    height: 56px;
+    background-size: 94px 56px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/macbook-pro/l/images/overview/macos_devices_icon_large.svg);
+}
+.image-macos-badge-icloud {
+    width: 63px;
+    height: 56px;
+    background-size: 63px 56px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/macbook-pro/l/images/overview/macos_icloud_icon_large.svg);
+}
+.section-macos .image-macos-hero {
+    position: relative;
+    top: 100px;
+    left: 20%;
+    width: 1097px;
+    height: 988px;
+    background-size: 1097px 688px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.apple.com/cn/macbook-pro/images/overview/macos_large.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-footer-content
+{
+    width: 100%;
+    background: #f2f2f2;
+    height: 475px;
+    color: #fff;
+    overflow: hidden;
+} 
+
+#footer
+{
+    width: 100%;
+    height: 475px;
+    display: flex;
+    float:left;
+}
+
+#footer-left
+{
+    width: 12.5%;
+    height: 475px;
+}
+
+#footer-mid
+{
+    width: 75%;
+    height: 475px;
+}
+#footer-mid-tip
+{
+    color: #888;
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 17px 0 11px;
+    font-size: 8px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+.footer-mid-tip-ul
+{
+    padding-left: 0;
+    list-style-type:none;
+    float: left;
+}
+.footer-mid-tip-ul li
+{
+    text-align: left;
+    line-height: 18px;
+}
+#footer-mid-tip p
+{
+    font-weight: lighter;
+    font-size: 10px;
+    color: #666;
+}
+
+#foot-mid-down
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-mid-item
+{
+    width: 20%;
+    height: 280px;
+    padding-top: 10px;
+}
+
+.footer-mid-item p
+{
+    cursor: default;
+    color: #000;
+    font-size: 10px;
+    text-align: left;
+}
+
+.footer-mid-item ul
+{
+    padding: 0;
+}
+
+.footer-mid-item li
+{
+    list-style: none;
+    margin-bottom:0;
+    text-align: left;
+}
+
+.footer-mid-item a
+{
+    color: #444;
+    font-family: "微软雅黑";
+    font-size: 10px;
+}
+
+#footer-mid-copy
+{
+    width: 100%;
+    height: 95px;
+}
+
+#footer-copy-up
+{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+}
+
+#footer-copy-up p
+{
+    font-weight: lighter;
+    font-size: 10px;
+    color: #000;
+    text-align: left;
+}
+
+#footer-copy-down
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
+.copy-down
+{
+    width: 20%;
+    color: #666;
+}
+
+#copy-down
+{
+    width: 30%;
+    display: flex;
+}
+
+#copy-down2
+{
+    width: 50%;
+    font-size: 10px;
+}
+
+#copy-down2-body
+{
+    float: right;
+}
+
+.copy-down-item
+{
+    font-size: 10px;
+    width: 100%;
+    height: 10px;
+    padding-left: 5px;
+    border-right: 1px solid #ccc;
+}
+
+.copy-down-item:nth-child(5)
+{
+    border: none;
+}
+
+.copy-down-item a
+{
+    color: #444;
+    font-size: 10px;
+}
+
+#footer-right
+{
+    width: 12.5%;
+    height: 445px;
+}
+.ac-gf-footer-legal-copyright
+{
+    text-align: left;
+    font-size: 10px;
+    width: 100%;
+    height: 10px;
+    border-right: 1px solid #ccc;
+}

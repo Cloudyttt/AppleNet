@@ -1,0 +1,847 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-05-30 19:07:40
+ * @version $Id$
+ */
+a{
+    color: #0070c9;
+}
+a:hover{
+    color: #0070c9;
+    text-decoration: none;
+}
+body {
+    font-size: 17px;
+    line-height: 1.52947;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    font-family:"微软雅黑";
+    color: #333;
+    font-style: normal;
+}
+.container{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.firstcenter{
+    display: flex;
+    justify-content: center;
+}
+/*header*/
+.header{
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: column;
+    height: 84px;
+}
+/*header-top*/
+.header-top{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #444;
+}
+.header-top-content{
+    width: 1000px;
+    height: 44px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #a8a8aa;
+    font-size: 12px;
+}
+/*header-middle*/
+.header-middle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    background: #000;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.header-middle-content{
+    width: 1000px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-middle-item a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.header-middle-item a:hover{
+    color: #B5B5B5;
+}
+
+.header-middle-item .fa-apple{
+    color: #fff;
+    font-size: 20px;
+}
+
+.header-middle-item .fa-apple:hover{
+    color: #B5B5B5;
+    cursor: pointer;
+}
+
+.header-middle-item .fa-search{
+    color: #fff;
+    font-size: 20px;
+}
+
+.header-middle-item .fa-search:hover{
+    color: #B5B5B5;
+    cursor: pointer;
+}
+
+.header-middle-item .fa-shopping-bag{
+    color: #fff;
+    font-size: 20px;
+}
+
+.header-middle-item .fa-shopping-bag:hover{
+    color: #B5B5B5;
+    cursor: pointer;
+}
+.header-bottom{
+/*
+    display: flex;
+    justify-content: center;
+*/
+	position: relative;
+/*	width: 100%;*/
+    height: 52px;
+}
+.header-bottom-content{
+	width: 1000px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #d6d6d6;
+}
+.header-bottom-content h2{
+	font-size: 24px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: .015em;
+    margin: 0px;
+    float: left;
+}
+.header-bottom-content-menu{
+    display: flex;
+    align-items: flex-end;
+    height: 52px;
+	font-size: 12px;
+	font-weight: 400;
+    letter-spacing: 0em;
+    float: right;
+}
+.header-bottom-content-menu-tray{
+    height: 40px;
+    line-height: 40px;
+}
+.header-bottom-content-menu-item {
+    margin-left: 24px;
+    padding: 0px;
+    float: left;
+    list-style: none;
+}
+
+.menu-link{
+    color: #333;
+}
+
+.header-bottom-content-menu-button{
+    height: 40px;
+    line-height: 40px;
+    margin-left: 24px;
+}
+.menu-buy{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+     min-width: 20px;
+    padding: 1px 10px 1px 10px;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border: 1px solid #07c;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+}
+.menu-buy:hover{
+    color: #ffffff;
+}
+.macbookair-product{
+    display: flex;
+    justify-content: center;
+}
+.macbookair-content{
+    width: 1000px;
+}
+.product-reduced{
+    font-size: 32px;
+    line-height: 1.5625;
+    font-weight: 500;
+    letter-spacing: .011em;
+    text-align: center;
+    padding: 0;
+    margin: 135px 0 0 0;
+    
+}
+.product-headline{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 22%;
+    width: 58%;
+    font-size: 48px;
+    line-height: 1.14615;
+    font-weight: 500;
+    letter-spacing: .006em;
+    text-align: center;
+    padding: 0;
+}
+.product-copy{
+    font-size: 22px;
+    line-height: 1.45455;
+    font-weight: 300;
+    letter-spacing: .016em;
+    text-align: center;
+    margin: 16px 0 0  0;
+    padding: 0;
+}
+.product-image{
+    left: 50%;
+    margin-left: -538px;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 110px;
+    width: 1076px;
+    height: 623px;
+    background-size: 1076px 623px;
+    background-repeat: no-repeat;
+    background-image: url("https://images.apple.com/cn/macbook-air/overview/hero/image_large.jpg");
+}
+/*macbookair-battery*/
+.battery-image{
+    left: 50%;
+    margin-left: -48.5px;
+    position: relative;
+    margin-bottom: 40px;
+    width: 97px;
+    height: 43px;
+    background-size: 97px 43px;
+    background-repeat: no-repeat;
+    background-image: url("https://images.apple.com/cn/macbook-air/site/sharedimages/icon_battery_large.svg");
+}
+.battery-content{
+    padding-bottom: 180px;
+/*    border-bottom: 1px solid #d6d6d6;*/
+    text-align: center;
+}
+.battery-headline{
+    font-size: 40px;
+    line-height: 1.175;
+    font-weight: 500;
+    letter-spacing: .008em;
+    margin: 0;
+    padding: 0;
+}
+.battery-copy{
+    letter-spacing: 0em;
+    padding: 0 71px 0 71px;
+    margin:12.750px 0 11.9px 0;
+}
+.bettery-link{
+    letter-spacing: 0em;
+    margin-left: -5px;
+}
+/*macbookair-feature*/
+.macbookair-features{
+    background-color:#fafafa;
+}
+
+.features-headline{
+    margin-top: 150px;
+/*    margin-bottom: 70px;*/
+    text-align: center;
+}
+.features-headline h2{
+    font-size: 40px;
+    line-height: 1.175;
+    font-weight: 500;
+    letter-spacing: .008em;
+    margin: 0;
+    padding: 0;
+}
+.features-image{
+    left: 50%;
+    margin-left: -544px;
+    position: relative;
+    margin-bottom: 70px;
+    width: 1088px;
+    height: 541px;
+    background-size: 1088px 541px;
+    background-repeat: no-repeat;
+    background-image: url("https://images.apple.com/cn/macbook-air/overview/features/image_large.jpg");
+}
+.features-content{
+    padding-bottom: 180px;
+    padding-bottom: 180px;
+    text-align: center;
+}
+.features-copy{
+    letter-spacing: 0em;
+    padding: 0 71px 0 71px;
+    margin:12.750px 0 11.9px 0;
+}
+.features-link{
+    letter-spacing: 0em;
+    margin-left: -5px;
+}
+
+/*macbookair-wifi*/
+.hardware-container{
+    position: relative;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 660px;
+}
+.hardware-position{
+    position: absolute;
+    right: 0;
+    left: -28%;
+    max-width: 100%;
+    height: 100%;
+}
+.hardware{
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    width: 1280px;
+    height: 644px;
+}
+.wifi-image{
+    width: 1280px;
+    height: 644px;
+    background-size: 1280px 644px;
+    background-repeat: no-repeat;
+    background-image: url("https://images.apple.com/cn/macbook-air/overview/wifi/image_large.png");
+}
+.wifi-rings{
+    width: 1280px;
+    height: 644px;
+    background-size: 1280px 644px;
+    background-repeat: no-repeat;
+    background-image: url("https://images.apple.com/cn/macbook-air/overview/wifi/rings_large.jpg");
+}
+.data-rings{
+    position: relative;
+    right: 0;
+    z-index: 1;
+    transform: rotate3d(-1.7, 0.5, 0.7, 70deg);
+    perspective-origin: 50%;
+    top: -68%;
+    left: 52%;
+    width: 645px;
+    height: 645px;
+}
+.data-ring{
+    position: absolute;
+    z-index: 1;
+    -webkit-filter: blur(0.5px);
+    background: radial-gradient(circle farthest-corner at 50% 50%, rgba(255,255,255,0), rgba(255,255,255,0) 30%, #58cef5 85%, #58cef5 100%);
+}
+.outer-mid{
+    top: -5%;
+    right: 5%;
+    width: 726px;
+    height: 726px;
+    opacity: 0;
+    border-radius: 50%;
+    -webkit-transform: scale3d(1, 1, 1);
+     transition: opacity 1000ms cubic-bezier(0.39, 0.575, 0.425, 0.975),transform 1800ms cubic-bezier(0.39, 0.575, 0.425, 0.975),-webkit-transform 1800ms cubic-bezier(0.39, 0.575, 0.425, 0.975);
+}
+.inner-mid{
+    top: 6%;
+    right: 17%;
+    width: 552px;
+    height: 552px;
+    border-radius: 50%; 
+    opacity: 0;
+    -webkit-transform: scale3d(1, 1, 1);
+    transition: opacity 1000ms cubic-bezier(0.39, 0.575, 0.425, 0.975),transform 1800ms cubic-bezier(0.39, 0.575, 0.425, 0.975),-webkit-transform 1800ms cubic-bezier(0.39, 0.575, 0.425, 0.975);
+}
+.inner-center{
+    top: 11%;
+    right: 30%;
+    width: 415px;
+    height: 415px;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: scale3d(1, 1, 1);
+    transition: opacity 1000ms cubic-bezier(0.39, 0.575, 0.425, 0.975),transform 1800ms cubic-bezier(0.39, 0.575, 0.425, 0.975),-webkit-transform 1800ms cubic-bezier(0.39, 0.575, 0.425, 0.975);
+}
+.inner{
+    border-radius: 50%;
+    top: 22%;
+    right: 43%;
+    width: 248px;
+    height: 248px;
+    opacity: 0;
+    -webkit-transform: scale3d(1, 1, 1);
+     transition: opacity 1000ms cubic-bezier(0.39, 0.575, 0.425, 0.975),transform 1800ms cubic-bezier(0.39, 0.575, 0.425, 0.975),-webkit-transform 1800ms cubic-bezier(0.39, 0.575, 0.425, 0.975);
+}
+
+.wifi-content{
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom:180px; 
+}
+.wifi-headline{
+    font-size: 40px;
+    line-height: 1.175;
+    font-weight: 500;
+    letter-spacing: .008em;
+    margin: 0;
+    padding: 0;
+}
+.wifi-copy{
+    padding: 0 71px 0 71px;
+    margin:12.750px 0 11.9px 0;
+}
+/*macbookair-storage*/
+.macbookair-storage{
+    background-color: black;
+}
+.storage-image{
+    left: 50%;
+    margin-left: -580px;
+    position: relative;
+    width: 1160px;
+    height: 475px;
+/*    background-size: 1160px 475px;*/
+    background-repeat: no-repeat;
+    background-image: url("https://images.apple.com/cn/macbook-air/overview/storage/image_large.jpg");
+}
+.storage-content{
+    position: relative;
+    text-align: center;
+    letter-spacing: 0em;
+    margin-top: -8%;
+    padding-bottom: 180px;
+}
+.storage-headline{
+    font-size: 40px;
+    line-height: 1.175;
+    font-weight: 500;
+    letter-spacing: .008em;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.storage-copy{
+    letter-spacing: 0em;
+    padding-right:100px;
+    padding-left: 100px;
+    margin-top: .75em;
+    word-wrap: break-word;
+    color: #ccc;
+}
+/*macbookair-apps*/
+.apps-content{
+    padding-bottom: 180px;
+    border-bottom: 1px solid #d6d6d6;
+    text-align: center;
+    
+}
+.apps-headline{
+    font-size: 40px;
+    line-height: 1.175;
+    font-weight: 500;
+    letter-spacing: .008em;
+    margin: 0;
+    padding: 0;
+}
+.apps-copy{
+    letter-spacing: 0em;
+    padding-right:100px;
+    padding-left: 100px;
+     margin:.75em 0 .7em 0;
+    word-wrap: break-word;
+}
+.apps-image{
+    left: 50%;
+    margin-left: -504px;
+    position: relative;
+    width: 1008px;
+    height: 190px;
+    background-size: 1008px 190px;
+    background-repeat: no-repeat;
+    background-image: url("https://images.apple.com/cn/macbook-air/overview/apps/image_large.jpg");
+    margin-top: 180px;
+    margin-bottom: 60px;
+}
+/*macbookair-macos*/
+.macos-content{
+    margin-top: 150px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.macos-headline{
+    font-size: 40px;
+    line-height: 1.175;
+    font-weight: 500;
+    letter-spacing: .008em;
+    margin: 0;
+    padding: 0;
+}
+.macos-copy{
+    letter-spacing: 0em;
+    padding-right:100px;
+    padding-left: 100px;
+/*    margin-top: .75em;*/
+    margin:.75em 0 .7em 0;
+}
+.macos-link{
+    letter-spacing: 0em;
+}
+.macOS-image{
+    padding-bottom: 180px;
+    border-bottom: 1px solid #d6d6d6;
+    
+}
+.macos-image{
+    left: 50%;
+    margin-left: -548px;
+    position: relative;
+    width: 1096px;
+    height: 635px;
+    background-size: 1096px 635px;
+    background-repeat: no-repeat;
+    background-image: url("https://images.apple.com/cn/macbook-air/overview/macos/image_large.jpg");
+    padding-bottom: 180px;
+}
+/*bustrip*/
+.buystrip{
+     background-color: #f2f2f2;
+}
+.buystrip-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin-top: 60px;
+}
+.buystrip-top-image{
+    margin-right: 34px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 166px;
+    height: 96px;
+    background-size: 166px 96px;
+    background-repeat: no-repeat;
+    background-image: url("https://images.apple.com/cn/macbook-air/site/buystrip/hero/image_large.jpg");
+}
+.buystrip-top-title{
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 500;
+    letter-spacing: .011em;
+    margin: 0 0 3px 0;
+    color:#333;
+}
+.buystrip-top-copy{
+    font-size: 19px;
+    line-height: 1.47384;
+    font-weight: 300;
+    letter-spacing: .018em;
+    color:#333;
+}
+.buystrip-top-link{
+    margin-top: .66em 0 0 0;
+    font-size: 1em;
+}
+.buystrip-top-link:hover{
+    text-decoration: underline;
+}
+.buystrip-bottom-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 0 56px 0;
+    text-align: center;
+    border-bottom: 1px solid #d6d6d6;
+}
+.buystrip-bottom-item{
+/*    flex-direction: column;*/
+    width: 23%;
+    text-align: center;
+    padding-top: 56px;
+}
+.buystrip-bottom-item-icon1{
+    width: 74px;
+    height: 74px;
+    background-size: 74px 74px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/ac/globalfooter/3/en_US/assets/ac-footer/buystrip/shipping/icon_large.svg");
+     margin-left: auto;
+    margin-right: auto;
+}
+.buystrip-bottom-item-icon2{
+    width: 74px;
+    height: 74px;
+    background-size: 74px 74px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/ac/globalfooter/3/en_US/assets/ac-footer/buystrip/retail/icon_large.svg");
+    margin-left: auto;
+    margin-right: auto;
+}
+.buystrip-bottom-item-icon3{
+    width: 74px;
+    height: 74px;
+    background-size: 74px 74px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/ac/globalfooter/3/en_US/assets/ac-footer/buystrip/financing/cny/icon_large.svg");
+    margin-left: auto;
+    margin-right: auto;
+}
+.buystrip-bottom-item-icon4{
+    width: 74px;
+    height: 74px;
+    background-size: 74px 74px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/ac/globalfooter/3/en_US/assets/ac-footer/buystrip/help/icon_large.svg");
+    margin-left: auto;
+    margin-right: auto;
+}
+.buystrip-bottom-item-title{
+    font-size: 18px;
+    line-height: 1.26316;
+    font-weight: 500;
+    letter-spacing: .018em;
+    margin: 0.125em 0 0 0;
+    color: #333;
+}
+.buystrip-bottom-item-copy{
+    font-size: 14px;
+    letter-spacing: 0em;
+    margin: 7px 0 11px 0;
+    color: #333;
+}
+.buystrip-bottom-item-copy1{
+    font-size: 14px;
+    letter-spacing: 0em;
+    margin: 7px 0 0 0;
+    color: #333;
+}
+.buystrip-bottom-item-copy2{
+    font-size: 14px;
+    letter-spacing: 0em;
+    margin: 0 0 11px 0;
+    color: #333;
+}
+.buystrip-bottom-item-link{
+    font-size: 12px;
+    letter-spacing: 0em;
+    margin: 0 0 -3px 0;
+}
+.buystrip-bottom-item-link:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*bottom*/
+.bottom{
+    height: 484px;
+    background-color: #f2f2f2;
+    
+}
+.bottom-cnt{
+    height: 484px;
+    width: 1000px;
+    background-color: #F2F2F2;
+    margin:auto;
+}
+.bottom-cnt-top{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid lightgray;
+}
+.bottom-cnt-top span{
+    font-size: 11px;
+    color: gray;
+    font-family:"微软雅黑";
+}
+.bottom-cnt-top a{
+    font-size: 11px;
+    color: gray;
+    font-family:"微软雅黑";
+}
+.bottom-cnt-mid{
+    /*border-bottom: 1px solid lightgray;*/
+    height: 393px;
+    background-color: #F2F2F2;
+}
+.bottom-cnt-mid-top{
+    height: 58px;
+    background-color:  #F2F2F2;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+.btn-log a i{
+    color: #555;
+    width: 15px;
+    height: 20px;
+}
+.btn-tar {
+    width: 40px;
+/*    margin:0 15px 0 15px;*/
+    /*margin-left: 100%;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    height: 50px;
+    color: #d8d8d8;
+}
+.btn-text{
+/*    width: 50px;*/
+    font-size: 15px;
+}
+
+.bottom-cnt-mid-ctn{
+    height: 246px;
+    background-color:#F2F2F2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: none;
+}
+.bottom-cnt-mid-btn{
+    margin-top: 30px;
+    height: 58px;
+    /*background-color: green;*/
+}
+.footer-mid-item{
+    width: 20%;
+    height: 330px;
+    text-align: left;
+    /*background: #ccc;*/
+    /*padding-top: 20px;*/
+}
+.footer-mid-item ul{
+    padding: 0;
+}
+.footer-mid-item li{
+    list-style: none;
+    margin-bottom: -5px;
+    margin-left: 0;
+    font-family:"微软雅黑";
+}
+.footer-mid-item li a{
+    color: #555;
+    text-decoration: none;
+    font-size: 11px;
+}
+.footer-mid-item h3{
+    font-size: 11px;
+    line-height: 1.27273;
+    font-weight: 600;
+    letter-spacing: .005em;
+    margin: 0;
+    margin-bottom: 2px;
+    font-family:"微软雅黑";
+}
+#footer-mid-copy{
+    width: 100%;
+    height: 95px;
+}
+
+#footer-copy-up{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+}
+
+#footer-copy-up p{
+    font-weight: lighter;
+    font-size: 11px;
+    color: #000;
+    color: gray;
+}
+
+.footer-copy-down{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    padding-top: 5px;
+    font-size: 11px;
+}
+
+.copy-down{
+    margin-right: 30px;
+    color: #666;
+}
+
+#copy-down{
+    width: 33%;
+    display: flex;
+}
+
+.copy-down2{
+    display: flex;
+    justify-content: flex-end;
+    width:  39%;
+    float: right;
+    
+}
+
+.copy-down2-content{
+    float: right;
+    color:#333;
+}
+
+.copy-down-item{
+    width: 100%;
+    height: 20px;
+    padding-left: 5px;
+    border-right: 1px solid #ccc;
+}
+
+.copy-down-item:nth-child(5){
+    border: none;
+}
+
+.copy-down-item a{
+    color: #444;
+}

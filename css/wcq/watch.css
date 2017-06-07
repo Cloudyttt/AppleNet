@@ -1,0 +1,590 @@
+.container{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	height: 84px;
+	width: 100%;
+	background-color: #444;
+}
+.header-ad{
+	display: flex;
+	justify-content: center;
+	background-color: #444;
+	height: 40px;
+}
+.header-ad-words{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 976px;
+	font-size: 12px;
+	color: #a8a8a8;
+}
+/*.header-navigation{
+	height: 44px;
+}*/
+#hd-down{
+	width: 100%;
+	height: 44px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	z-index: 3;
+	opacity: 0.8;
+}
+
+#hd-nav{
+	width: 1000px;
+	height: 44px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hd-item a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.hd-item a:hover{
+	color: #B5B5B5;
+}
+.ord0{
+	font-weight: 600;
+	color:black;
+}
+.hd-item .fa-apple{
+	color: #fff;
+	font-size: 20px;
+}
+
+.hd-item .fa-apple:hover{
+	color: #B5B5B5;
+	cursor: pointer;
+}
+
+.hd-item .fa-search{
+	color: #fff;
+	font-size: 20px;
+}
+
+.hd-item .fa-search:hover{
+	color: #B5B5B5;
+	cursor: pointer;
+}
+
+.hd-item .fa-shopping-bag{
+	color: #fff;
+	font-size: 20px;
+}
+
+.hd-item .fa-shopping-bag:hover{
+	color: #B5B5B5;
+	cursor: pointer;
+}
+.hd-nav-down{
+    	width: 100%;
+		height: 110px;
+		display: flex;
+		justify-content: center;
+		z-index: 1;
+		opacity: 0.9;
+    	background-color: #FBFBFB;
+	}
+/*.hd-nav-item img{
+	width: 25px;
+	height: 54px;
+}*/
+.log1{
+	width: 25px;
+	height: 54px;
+}
+.log2{
+	width: 37px;
+	height: 54px;
+}
+.hd-nav-down-cont{
+	display: flex;
+	left: 180px;
+	opacity: 0.1;
+	position: relative;
+	width: 900px;
+	height: 110px;
+   }
+.hd-nav-item{
+	width: 10%;
+	height: 110px;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.hd-nav-item a{
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.hd-nav-item span{
+	color: #000;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+.hd-nav-item span:hover{
+	color: #777;
+}
+.rings-large{
+	margin-top: 100px;
+	width:100%;
+    height: 1225px;
+    background-size: 2560px 1225px;
+    background-repeat: no-repeat;
+    background-image:url("https://images.apple.com/cn/watch/home/images/hero_activity_rings_large.jpg");
+    position: relative;
+    background-position: center center;
+    padding: 1px;
+}
+.watch-log-1{
+    margin:auto;
+    margin-top: 80px;
+	width: 184px;
+	height: 71px;
+	background-image: url("https://images.apple.com/v/watch/home/d/images/logo_watch_series_2_large.png");
+}
+.buy-word{
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 240px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 20px;
+	font-family: YouYuan;
+}
+.buy-word a{
+	color: #0070C9;
+}
+.block{
+	width: 25px;
+}
+.background{
+	width:100%;
+    /*margin: auto;*/
+}
+.nike-large{
+    height: 700px;
+    width: 100%;
+    margin: auto;
+    /*background-size: 1215px 700px;*/
+    background-repeat: no-repeat;
+    background-image:url("https://images.apple.com/cn/watch/home/images/nike_alt_large.jpg");
+    position: relative;
+    background-position: center center;
+    padding: 1px;
+    margin-top: 50px;
+}
+.watch-log-2{
+    margin:auto;
+    margin-top: 80px;
+	width: 223px;
+	height: 47px;
+	background-image: url("https://images.apple.com/v/watch/home/d/images/logo_watch_nike_large.png");
+}
+.twopic1{
+    margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.hermes-large{
+	width:43%;
+    height: 900px;
+    margin-right: 50px;
+    background-size: 657px 900px;
+    background-repeat: no-repeat;
+    background-image:url("https://images.apple.com/v/watch/home/d/images/hermes_large.jpg");
+    position: relative;
+    background-position: center center;
+    padding: 1px;
+}
+.watch-log-3{
+    margin:auto;
+    margin-top: 80px;
+	width: 276px;
+	height: 47px;
+	/*z-index: 100;*/
+	background-image: url("https://images.apple.com/v/watch/home/d/images/logo_watch_hermes_large.png");
+}
+.edition-large{
+	width:43%;
+    height: 900px;
+    background-size: 657px 900px;
+    background-repeat: no-repeat;
+    background-image:url("https://images.apple.com/cn/watch/home/images/edition_large.jpg");
+    /*left: 50%;*/
+    /*margin-left: -1282px;*/
+    position: relative;
+    background-position: center center;
+    padding: 1px;
+    /*margin-top: 50px;*/
+    margin-bottom: 50px;
+}
+.watch-log-4{
+    margin:auto;
+    margin-top: 80px;
+	width: 224px;
+	height: 42px;
+	/*z-index: 100;*/
+	background-image: url("https://images.apple.com/v/watch/home/d/images/logo_watch_edition_large.png");
+}
+.watch-series1{
+    height: 700px;
+    /*margin-right: 50px;*/
+    width: 100%;
+    /*background-size: 1215px 700px;*/
+    background-repeat: no-repeat;
+    background-image:url("https://images.apple.com/cn/watch/home/images/series_one_large.jpg");
+    position: relative;
+    background-position: center center;
+    padding: 1px;
+    /*margin-top: 50px;*/
+    margin-bottom: 50px;
+}
+.watch-log2-1{
+    margin:auto;
+    margin-top: 80px;
+	width: 117px;
+	height: 44px;
+	/*z-index: 100;*/
+	background-image:url("https://images.apple.com/v/watch/home/d/images/logo_watch_series_1_large.png");
+}
+.apple-watch{
+	width:89%;
+    height: 510px;
+    /*margin-right: 50px;*/
+    background-color: #F2F2F2;
+    /*background-size: 819px 210px;*/
+    background-repeat: no-repeat;
+    background-image:url("https://images.apple.com/cn/watch/home/images/compare_large.jpg");
+    background-position: center center;
+    padding: 1px;
+   /* margin-top: 50px;*/
+    margin-bottom: 50px;
+	margin:auto;
+    text-align:center;
+    padding-top: 50px;
+}
+.apple-watch span{
+	    font-family: Microsoft YaHei;
+	    font-size: 29px;
+}
+.buy-word2{
+	margin: 0 auto;
+	width: 300px;
+	height: 21px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 22px;
+	margin-top: 25px;
+}
+.buy-way{
+	width: 100%;
+	height: 269px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+}
+.block1{
+	width: 40%;
+	height: 158px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+.pic1{
+	width: 74px;
+	height: 74px;
+	margin:auto;
+}
+.line1{
+	width: 408px;
+	height: 24px;
+	margin: auto;
+}
+.line1 span{
+	font-size: 17px;
+	font-family: Microsoft YaHei;
+}
+.line2{
+	width: 408px;
+	height: 24px;
+	margin-top: 10px;
+	margin: auto;
+
+}
+.line2 span{
+
+}
+.line3{
+	width: 85px;
+	height: 24px;
+	margin:auto;
+}
+.line3 a{
+	font-family: Microsoft YaHei;
+
+}
+.pic-total{
+	width: 88%;
+	height: 700px;
+	margin-bottom: 35px;
+	margin:auto;
+
+	background-image: url("https://images.apple.com/v/watch/home/d/images/bands_large.jpg");
+}
+.word-total{
+	width: 1350px;
+	height: 77px;
+	text-align: center;
+	margin:auto;
+	margin-bottom: 75px;
+	margin-top: 35px;
+	padding: 1px;
+}
+.word-total span{
+	font-size:29px;
+	font-family: Microsoft YaHei;
+}
+.word-total a{
+	font-size: 19px;
+	margin-top: 10px;
+	font-family: Microsoft YaHei;
+}
+.space{
+	height: 8px;
+}
+.twopic2{
+	height: 650px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.twopic2 img{
+	width: 650px;
+	height: 700px;
+}
+.photo1{
+	margin-right:13px;
+}
+.photo2{
+	margin-left:13px;
+}
+.word-total2{
+	height: 155px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.word1{
+	width: 650px;
+	margin:auto;
+	text-align: center;
+	margin-right: 50px;
+}
+.word2{
+	width: 650px;
+	margin:auto;
+	text-align: center;
+}
+.line4{
+	width: 350px;
+	height: 40px;
+	margin:auto;
+}
+.line4 span{
+	font-size: 30px;
+	font-family: Microsoft YaHei;
+}
+.line5{
+	width: 270px;
+	height: 25px;
+	margin:auto;
+}
+.line5 a{
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+}
+.space2{
+	height:3px;
+}
+.space3{
+	height:15px;
+}
+.pic-total2{
+	width: 87%;
+	height: 700px;
+	margin: auto;
+	margin-bottom: 35px;
+	background-image: url("https://images.apple.com/v/watch/home/d/images/films_live_bright_large.jpg");
+}
+.bottom{
+	height: 484px;
+	background-color: #F2F2F2;
+	
+}
+.bottom-cnt{
+	height: 484px;
+	width: 980px;
+	background-color: #F2F2F2;
+	margin:auto;
+}
+.bottom-cnt-top{
+	height: 71px;
+	margin-top: 15px;
+	border-bottom: 1px solid lightgray;
+}
+.bottom-cnt-top span{
+	font-size: 2px;
+	color: gray;
+	font-family: Microsoft YaHei;
+}
+.bottom-cnt-mid{
+	height: 364px;
+	background-color: #F2F2F2;
+}
+.bottom-cnt-mid-top{
+	height: 58px;
+	background-color:  #F2F2F2;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+}
+.btn-log{
+	background-image: url("../../img/wcq/icon_large.svg");
+	width: 14px;
+	height: 20px;
+}
+.btn-tar{
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	height: 50px;
+}
+.btn-word{
+	width: 50px;
+}
+
+
+.bottom-cnt-mid-ctn{
+	height: 246px;
+	background-color:#F2F2F2;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	border-bottom: none;
+}
+.bottom-cnt-mid-btn{
+	height: 58px;
+}
+.footer-mid-item{
+	width: 20%;
+	height: 330px;
+	text-align: left;
+}
+.footer-mid-item ul{
+	padding: 0;
+}
+.footer-mid-item li{
+	list-style: none;
+	margin-bottom: 2px;
+	margin-left: 0;
+	font-size: 2px;
+	font-family: Microsoft YaHei;
+}
+.footer-mid-item a{
+	color: gray;
+}
+.footer-mid-item p{
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+}
+#footer-mid-copy{
+	width: 100%;
+	height: 95px;
+}
+
+#footer-copy-up{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #ccc;
+	line-height: 30px;
+}
+
+#footer-copy-up p{
+	font-weight: lighter;
+	font-size: 10px;
+	color: #000;
+	color: gray;
+}
+
+#footer-copy-down{
+	width: 100%;
+	height: 65px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-top: 5px;
+	font-size: 5px;
+}
+
+.copy-down{
+	width: 33%;
+	color: #666;
+}
+
+#copy-down{
+	width: 33%;
+	display: flex;
+}
+
+#copy-down2{
+	width: 33%;
+	
+}
+
+#copy-down2-body{
+	float: right;
+}
+
+.copy-down-item{
+	width: 100%;
+	height: 20px;
+	padding-left: 5px;
+	border-right: 1px solid #ccc;
+}
+
+.copy-down-item:nth-child(5){
+	border: none;
+}
+
+.copy-down-item a{
+	color: #444;
+}

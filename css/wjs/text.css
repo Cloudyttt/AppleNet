@@ -1,0 +1,801 @@
+body{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+div{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	padding: 0;
+	margin: 0;
+}
+col-xs-12,col-sm-12,col-md-12{
+	padding: 0;
+}
+/*@media (min-width: 1200px){*/
+	.head{
+		display: flex;
+		flex-direction: column;
+		height: 84px;
+		padding: 0;
+		background-color: #333;
+	}
+	.header-ad{
+		display: flex;
+		justify-content: center;
+		background-color: #444;
+		height: 40px;
+	}
+	.header-ad-words{
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		width: 976px;
+		font-size: 12px;
+		color: #a8a8a8;
+	}
+	.header-navigation{
+		display: flex;
+		height: 44px;
+		justify-content: center;
+		align-items: center;
+	}
+	.header-navigation-center{
+		display: flex;
+		width: 1000px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.hd-item a{
+		color: #fff;
+		font-size: 15px;
+		font-weight: lighter;
+		text-decoration: none;
+	}
+
+	.hd-item a:hover{
+		color: #B5B5B5;
+	}
+
+	.hd-item .fa-apple{
+		color: #fff;
+		font-size: 20px;
+	}
+
+	.hd-item .fa-apple:hover{
+		color: #B5B5B5;
+		cursor: pointer;
+	}
+
+	.hd-item .fa-search{
+		color: #fff;
+		font-size: 20px;
+	}
+
+	.hd-item .fa-search:hover{
+		color: #B5B5B5;
+		cursor: pointer;
+	}
+
+	.hd-item .fa-shopping-bag{
+		color: #fff;
+		font-size: 20px;
+	}
+
+	.hd-item .fa-shopping-bag:hover{
+		color: #B5B5B5;
+		cursor: pointer;
+	}
+	.item-new{
+		color: #f46c0e;
+		font-size: 12px;
+	}
+	.item-new:hover{
+		color: #f46c0e;
+		font-size: 12px;
+	}
+	.hd-nav-down{
+    	width: 100%;
+		height: 110px;
+		display: flex;
+		justify-content: center;
+		z-index: 1;
+		opacity: 1;
+    	background-color: #2D2D2D;
+	}
+	.hd-nav-down-cont{
+		display: flex;
+		left: 180px;
+		opacity: 0.1;
+		position: relative;
+		width: 1000px;
+		height: 110px;
+    }
+.hd-nav-item{
+	width: 20%;
+	height: 110px;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.hd-nav-item a{
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.hd-nav-item span{
+	color: #fff;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+.hd-nav-item span:hover{
+	color: #777;
+}
+	.main1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+    	height: 800px;
+    	padding-top: 100px;
+    	background-image: url("https://images.apple.com/v/mac/home/v/images/home/macbookpro_large.png");
+    	background-repeat: no-repeat;
+    	background-position: 50% 100%;
+   		background-size: 170% 80%;
+	}
+	.main1-name{
+		margin-top: 0;
+	}
+	.main1-head{
+		margin-top: 10px;
+		font-size: 60px;
+	}
+	.main1-link{
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 10px;
+		font-size: 20px;
+		color: #0070C9;
+	}
+	.main1-link:hover{
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 10px;
+		font-size: 20px;
+		color: #0070C9;
+	}
+	.main2{
+		display: flex;
+		height: 810px;
+		padding-top: 100px;
+		flex-direction: column;
+		align-items: center;
+		background: linear-gradient(#fff, #FDFDFD, #F7F7F7);
+	}
+	.main2-words{
+		display: flex;
+		height: 200px;
+		margin-bottom: 100px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.main2-pic{
+		height: 546px;
+	}
+	.main2-head{
+		margin-top: 10px;
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+	.main2-pic-img{
+		width: 939px;
+		height: 306px;
+		background-image: url("https://images.apple.com/v/mac/home/v/images/home/macbook_large.png");
+		background-repeat: no-repeat;
+		background-size: 939px 306px;
+	}
+	.main3{
+		display: flex;
+		height: 810px;
+		padding-top: 100px;
+		flex-direction: column;
+		align-items: center;
+		background: linear-gradient(#fff, #FDFDFD, #F7F7F7);
+	}
+	.main3-pic-img{
+		width: 1158px;
+		height: 385px;
+		background-image: url("https://images.apple.com/v/mac/home/v/images/home/imac_large.png")
+	}
+	.main4{
+		display: flex;
+		height: 772px;
+		margin-top: 50px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.main4-words{
+		display: flex;
+		margin-top: 30px;
+		margin-bottom: 100px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.main4-words-link{
+		margin-top: 10px;
+		font-size: 20px;
+		color: #0070C9;
+	}
+	.main4-words-link:hover{
+		margin-top: 10px;
+		font-size: 20px;
+		color: #0070C9;
+	}
+	.main4-pic-img{
+		width: 1040px;
+		height: 419px;
+		background-image: url("https://images.apple.com/v/mac/home/v/images/home/compare_large.png");
+	}
+	.main4-line{
+		width: 60%;
+		height: 115px;
+		border-bottom: solid 1px #D6D6D6;
+	}
+	.main5{
+		display: flex;
+		height: 355px;
+		padding-top: 83px;
+		padding-bottom: 36px;
+		justify-content: center;
+		/*align-items: center;*/
+		background: linear-gradient(#fff, #FDFDFD, #F7F7F7);
+	}
+	.main5-part{
+		display: flex;
+		flex-direction: column;
+		width: 30%;
+		height: 165px;
+		/*margin-bottom: 50px;*/
+		align-items: center;
+	}
+	.main5-part-img{
+		width: 100%;
+		height: 100px;
+		/*margin-bottom: 10px;*/
+		background: url("https://images.apple.com/v/mac/home/v/images/home/icon_shipping_large.png");
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	}
+	.main5-part-title{
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.main5-part-details{
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.main5-part-img1{
+		width: 100%;
+		height: 100px;
+		/*margin-bottom: 10px;*/
+		background: url("https://images.apple.com/v/mac/home/v/images/home/icon_shipping_large.png");
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	}
+	.main5-part-link{
+		color: #0070C9;
+	}
+	.main5-part-link:hover{
+		color: #0070C9;
+	}
+	.main6{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 700px;
+		padding: 0;
+		background: linear-gradient(#fff, #FDFDFD, #F7F7F7);
+	}
+	.main6-words{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.main6-words-title{
+		font-size: 40px;
+		margin-bottom: 25px;
+	}
+	.main6-words-link{
+		font-size: 16px;
+		color: #0070C9;
+	}
+	.main6-words-link:hover{
+		font-size: 16px;
+		color: #0070C9;
+	}
+	.main6-pic{
+		width: 100%;
+		height: 389px;
+		position: relative;
+		top: -40px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/accessories_large.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.main7{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		height: 865px;
+		padding-top: 65px;
+		padding-bottom: 110px;
+		background: linear-gradient(#fff, #FDFDFD, #F7F7F7)
+	}
+	.main7-pic{
+		height: 365px;
+		margin-top: 50px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/macos_finder_icloud_large.png");
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	}
+	.main7-words{
+		display: flex;
+		padding: 0;
+		/*justify-content: center;*/
+	}
+	.main7-words-part{
+		padding: 0;
+		margin: 0;
+	}
+	.main7-words-block{
+		padding: 0;
+		margin: 0;
+	}
+	.words-part-title{
+		font-size: 33px;
+	}
+	.words-part-detail{
+		font-size: 17px;
+	}
+	.words-part-link{
+		font-size: 16px;
+		color: #0070C9;
+	}
+	.words-part-link:hover{
+		font-size: 16px;
+		color: #0070C9;
+	}
+	.main8{
+		height: 2000px;
+	}
+	.main8-builtinapps{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 980px;
+	}
+	.main8-proapps{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 980px;
+	}
+	.builtinapps-words{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/*justify-content: center;*/
+		text-align: center;
+		width: 50%;
+		margin-top: 80px;
+	}
+	.builtinapps-words-details{
+		margin-top: 20px;
+		font-size: 17px;
+	}
+	.words-details-link{
+		font-size: 16px;
+		color: #0070C9;
+	}
+	.words-details-link:hover{
+		font-size: 16px;
+		color: #0070CB;
+	}
+	.builtinapps-button{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 50px;
+	}
+	li{
+		list-style-type: none;
+		cursor:pointer;
+	}
+	.builtinapps-button ul{
+		display: flex;
+		height: 154px;
+		padding: 0;
+		margin-bottom: 15px;
+	}
+	.button-link{
+		width: 106px;
+		height: 104px;
+		border-bottom: solid 1px #D6D6D6;
+		text-align: center;
+	}
+	.button-linkpart{
+		text-decoration: none;
+		color: #333;
+	}
+	.button-linkpart:hover{
+		text-decoration: none;
+		color: #333;
+	}
+	.builtinapps-submainpart{
+		display: flex;
+		justify-content: center;
+	}
+	.proapps-submainpart{
+		display: flex;
+		justify-content: center;
+	}
+	.submainpart-words{
+		width: 326px;
+		margin-left: 50px;
+		padding-top: 50px;
+	}
+	.propart-words{
+		width: 272px;
+		margin-right: 50px;
+		padding-top: 50px;
+	}
+	.submainpart-words-img{
+		width: 74px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/bia_photos_header_large.png");
+		background-repeat: no-repeat;
+		background-position: 0 100%;
+	}
+	.submainpart-words-img1{
+		width: 90px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/bia_imovie_header_large.png");
+		background-repeat: no-repeat;
+		background-position: 0 100%;
+	}
+	.submainpart-words-img2{
+		width: 90px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/bia_garageband_header_large.png");
+		background-repeat: no-repeat;
+		background-position: 0 100%;
+	}
+	.submainpart-words-img3{
+		width: 90px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/bia_pages_header_large.png");
+		background-repeat: no-repeat;
+		background-position: 0 100%;
+	}
+	.submainpart-words-img4{
+		width: 90px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/bia_numbers_header_large.png");
+		background-repeat: no-repeat;
+		background-position: 0 100%;
+	}
+	.submainpart-words-img5{
+		width: 90px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/bia_keynote_header_large.png");
+		background-repeat: no-repeat;
+		background-position: 0 100%;
+	}
+	.submainpart-words-img6{
+		width: 90px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/bia_safari_header_large.png");
+		background-repeat: no-repeat;
+		background-position: 0 100%;
+	}
+	.propart-words-img{
+		width: 90px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/pro_finalcut_header_large.png");
+		background-repeat: no-repeat;
+		background-position: 0 100%;
+	}
+	.propart-words-img1{
+		width: 90px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/pro_logicpro_header_large.png");
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+	}
+	.propart-words-img2{
+		width: 90px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/pro_motion_header_large.png");
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+	}
+	.propart-words-img3{
+		width: 90px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/pro_compressor_header_large.png");
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+	}
+	.propart-words-img4{
+		width: 90px;
+		height: 97px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/pro_mainstage_header_large.png");
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+	}
+	.submainpart-words-details{
+		font-size: 17px;
+	}
+	.submainpart-words-link{
+		width: 326px;
+		font-size: 16px;
+		color: #0070C9;
+	}
+	.submainpart-words-link:hover{
+		width: 326px;
+		font-size: 16px;
+		color: #0070C9;
+	}
+	.main9{
+		display: flex;
+		justify-content: center;
+		height: 600px;
+		margin-bottom: 7px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/education_large.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.main9-words{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 980px;
+		margin-top: 82px;
+		color: #fff;
+	}
+	.main9-words-title{
+		font-size: 41px;
+	}
+	.main9-words-details{
+		margin-top: 21px;
+		font-size: 18px;
+	}
+	.main9-words-link{
+		margin-top: 12px;
+	}
+	.main9-words-link1{
+		color: #fff;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 18px;
+	}
+	.main9-words-link1:hover{
+		color: #fff;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 18px;
+	}
+	.main9-words-link2{
+		color: #fff;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 18px;
+	}
+	.main9-words-link2:hover{
+		color: #fff;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 18px;
+	}
+	.main10{
+		display: flex;
+		justify-content: center;
+		height: 600px;
+		background: url("https://images.apple.com/v/mac/home/v/images/home/business_large.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	/*.footer{
+		display: flex;
+		justify-content: center;
+		height: 413px;
+		background-color: #F2F2F2;
+	}
+	.foot-main{
+		width: 1024px;
+		background: #fff;
+	}*/
+	/*.title-apple{
+		width: 40px;
+		height: 40px;
+		background-color: #444;
+		background-image: url("icon_large.svg");
+	}*/
+	.bottom{
+	    display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 413px;
+		background-color: #F2F2F2;
+	}
+	.bottom-cnt{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 413px;
+		width: 1024px;
+		padding-right: 22px;
+		padding-left: 22px;
+		background-color: #F2F2F2;
+}
+.bottom-cnt-top{
+	height: 71px;
+	margin-top: 15px;
+	/*margin-bottom: 10px;*/
+	border-bottom: 1px solid lightgray;
+}
+.bottom-cnt-top span{
+	font-size: 2px;
+	color: gray;
+	font-family: Microsoft YaHei;
+}
+.bottom-cnt-mid{
+	/*border-bottom: 1px solid lightgray;*/
+	height: 364px;
+	width: 100%;
+	background-color: #F2F2F2;
+}
+.bottom-cnt-mid-top{
+	height: 58px;
+	background-color:  #F2F2F2;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+}
+.btn-log{
+	background-image: url("../img/icon_large.svg");
+	width: 15px;
+	height: 20px;
+}
+.btn-tar{
+	width: 30px;
+	/*margin-left: 100%;*/
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	height: 50px;
+}
+.btn-word{
+	width: 50px;
+}
+
+
+.bottom-cnt-mid-ctn{
+	display: flex;
+	width: 100%;
+	height: 246px;
+	background-color:#F2F2F2;
+	border-bottom: none;
+}
+.bottom-cnt-mid-btn{
+	height: 58px;
+	/*background-color: green;*/
+}
+.footer-mid-item{
+	width: 20%;
+	height: 330px;
+	text-align: left;
+	/*background: #ccc;*/
+	/*padding-top: 20px;*/
+}
+.footer-mid-item ul{
+	padding: 0;
+}
+.footer-mid-item li{
+	list-style: none;
+	margin-bottom: 2px;
+	margin-left: 0;
+	font-size: 2px;
+	font-family: Microsoft YaHei;
+}
+.footer-mid-item a{
+	color: gray;
+}
+.footer-mid-item p{
+    font-size: 12px;
+    font-family: Microsoft YaHei;
+}
+.footer-mid-copy{
+	width: 100%;
+	height: 95px;
+}
+
+.footer-copy-up{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #ccc;
+	line-height: 30px;
+}
+
+.footer-copy-up p{
+	font-weight: lighter;
+	font-size: 12px;
+	color: gray;
+}
+.footer-copy-up a{
+	font-size: 12px;
+	color: #0070C9;
+}
+.footer-copy-up a:hover{
+	font-size: 12px;
+	color: #0070C9;
+}
+.footer-copy-down{
+	width: 100%;
+	height: 65px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-top: 5px;
+	font-size: 5px;
+}
+
+.copy-down{
+	width: 33%;
+	color: #666;
+}
+
+.copy-down{
+	width: 33%;
+	display: flex;
+}
+
+.copy-down2{
+	width: 33%;
+	
+}
+
+.copy-down2-body{
+	float: right;
+}
+
+.copy-down-item{
+	width: 100%;
+	height: 20px;
+	padding-left: 5px;
+	border-right: 1px solid #ccc;
+}
+
+.copy-down-item:nth-child(5){
+	border: none;
+}
+
+.copy-down-item a{
+	color: #444;
+}
+
+/*}*/
+
